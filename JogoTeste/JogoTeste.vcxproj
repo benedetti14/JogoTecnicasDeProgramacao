@@ -18,6 +18,22 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entidade.h" />
+    <ClInclude Include="Gerenciador_Grafico.h" />
+    <ClInclude Include="Inimigo.h" />
+    <ClInclude Include="Jogador.h" />
+    <ClInclude Include="Jogo.h" />
+    <ClInclude Include="Personagem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entidade.cpp" />
+    <ClCompile Include="Gerenciador_Grafico.cpp" />
+    <ClCompile Include="Inimigo.cpp" />
+    <ClCompile Include="Jogador.cpp" />
+    <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="Personagem.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -133,9 +149,6 @@
       <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-network.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Jogo.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
