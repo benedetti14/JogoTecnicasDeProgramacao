@@ -8,7 +8,7 @@ GerenciadorGrafico::GerenciadorGrafico() {
 
 	janela = new sf::RenderWindow(sf::VideoMode(700, 700), "janela");
 	if (janela == NULL) {
-		std::cout << "Erro na criação da janela!";
+		std::cout << "Erro na criaÃ§Ã£o da janela!";
 		return;
 	}
 }
@@ -49,4 +49,3 @@ void GerenciadorGrafico::limpaJanela() {
 void GerenciadorGrafico::mostrar() {
 	janela->display();
 }
-
