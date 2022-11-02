@@ -1,7 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 
-
 class GerenciadorGrafico {
 private:
 	sf::RenderWindow* janela;
@@ -16,3 +15,4 @@ public:
 	void limpaJanela();
 	void mostrar();
 };
+
